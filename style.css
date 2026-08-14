@@ -173,9 +173,9 @@ header .brand img {
 
 @media (max-width: 520px) {
 
-  .mirage-page {
-    padding: 45px 6%;
-  }
+.mirage-page {
+  padding: 70px 6% 45px;
+}
 
   .mirage-page > h1 {
     font-size: 52px;
