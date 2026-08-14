@@ -100,3 +100,102 @@ header .brand img {
     object-fit: contain !important;
   }
 }
+/* ========================================
+   MIRAGE CHARACTER PAGE
+======================================== */
+
+.mirage-page {
+  padding: 70px 5%;
+  min-height: 100vh;
+}
+
+.mirage-page > h1 {
+  font-family: Cinzel, serif;
+  font-size: clamp(60px, 10vw, 130px);
+  letter-spacing: .12em;
+  margin: 10px 0 0;
+  line-height: 1;
+}
+
+.mirage-page > .tagline {
+  color: var(--gold);
+  letter-spacing: .35em;
+  margin: 18px 0 45px;
+  font-size: 14px;
+}
+
+/* Main Mirage artwork */
+
+.mirage-page-art {
+  width: 100%;
+  min-height: 620px;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(circle at center, #122333 0%, #0d1114 45%, #070a0c 75%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.mirage-page-art img {
+  display: block;
+  width: auto;
+  height: 580px;
+  max-width: 95%;
+  object-fit: contain;
+}
+
+/* Identity introduction */
+
+.mirage-intro {
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 45px;
+  border-left: 1px solid var(--gold);
+  background: var(--panel);
+}
+
+.mirage-intro h2 {
+  font-family: Cinzel, serif;
+  font-size: clamp(30px, 5vw, 52px);
+  margin: 10px 0 25px;
+}
+
+.mirage-intro p:not(.eyebrow) {
+  line-height: 1.8;
+  color: var(--cream);
+  font-size: 16px;
+}
+
+/* Mirage page mobile */
+
+@media (max-width: 520px) {
+
+  .mirage-page {
+    padding: 45px 6%;
+  }
+
+  .mirage-page > h1 {
+    font-size: 52px;
+    letter-spacing: .08em;
+  }
+
+  .mirage-page-art {
+    min-height: 430px;
+  }
+
+  .mirage-page-art img {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+  }
+
+  .mirage-intro {
+    margin: 40px 0;
+    padding: 25px;
+  }
+
+}
