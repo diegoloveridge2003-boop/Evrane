@@ -25,3 +25,10 @@ dl{display:grid;grid-template-columns:1fr 1fr;font-size:13px}dt{color:var(--mute
 footer{max-width:1400px;margin:auto;padding:55px 5%;border:1px solid var(--line);border-top:0;color:var(--muted);font-size:11px}
 @media(max-width:850px){header{height:auto;min-height:65px;flex-wrap:wrap;padding:14px 5%}#menuBtn{display:block}nav{display:none;width:100%;flex-direction:column;gap:0}nav.open{display:flex}nav a{padding:12px 0;border-top:1px solid var(--line)}.hero{grid-template-columns:1fr;padding-top:55px}.hero-art{height:360px;margin-top:40px}.silhouette{height:260px}.hero-art p{margin-top:290px}.feature{margin-top:50px}.portal-grid{grid-template-columns:1fr 1fr}.profile-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr 1fr}.story,.location{grid-template-columns:1fr}.book{min-height:300px}}
 @media(max-width:520px){section{padding:50px 6%}.portal-grid,.cards{grid-template-columns:1fr}.hero h1{font-size:48px}.tagline{letter-spacing:.2em}.document{flex-direction:column}.stats{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}}
+.brand img {
+  display: block;
+  width: 180px;
+  max-width: 42vw;
+  height: auto;
+  object-fit: contain;
+}
