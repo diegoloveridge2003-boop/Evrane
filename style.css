@@ -383,6 +383,10 @@ header .brand img {
   margin: 15px auto 20px;
 }
 
+.malik-image {
+  transform: scale(1.25);
+}
+
 .character-side .eyebrow {
   margin: 0;
 }
@@ -415,7 +419,10 @@ header .brand img {
     max-height: none;
     object-fit: contain;
   }
-
+.malik-image {
+  transform: scale(1.4);
+}
+  
   .character-label {
     font-size: 15px;
   }
