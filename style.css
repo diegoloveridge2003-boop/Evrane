@@ -199,3 +199,72 @@ header .brand img {
   }
 
 }
+/* Mirage Profile */
+
+.mirage-profile-card {
+  margin: 70px 0 20px;
+  padding: 45px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.mirage-profile-card > .eyebrow {
+  margin-bottom: 30px;
+}
+
+.profile-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.profile-list > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px;
+  min-height: 105px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.profile-list span {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.profile-list strong {
+  color: var(--cream);
+  font-family: Cinzel, serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.profile-active {
+  color: #d7c184 !important;
+}
+
+@media (max-width: 520px) {
+
+  .mirage-profile-card {
+    margin-top: 45px;
+    padding: 25px 20px;
+  }
+
+  .profile-list {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-list > div {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .profile-list strong {
+    font-size: 18px;
+  }
+
+}
