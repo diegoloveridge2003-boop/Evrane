@@ -49,3 +49,19 @@ header .brand img {
   object-position: left center;
   max-width: 190px !important;
 }
+/* Mirage homepage artwork */
+.hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #050708;
+}
+
+.mirage-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
