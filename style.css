@@ -356,3 +356,67 @@ header .brand img {
   }
 
 }
+
+/* Malik / Mirage Character Showcase */
+
+.character-duo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 45px 0 60px;
+}
+
+.character-side {
+  position: relative;
+  border: 1px solid var(--line);
+  background: #080c0f;
+  padding: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.character-side img {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  display: block;
+  margin: 15px auto 20px;
+}
+
+.character-side .eyebrow {
+  margin: 0;
+}
+
+.character-label {
+  color: var(--cream);
+  font-family: Cinzel, serif;
+  font-size: 18px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin: 15px 0 0;
+}
+
+/* Malik / Mirage Character Showcase - Mobile */
+
+@media (max-width: 520px) {
+
+  .character-duo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 35px 0 45px;
+  }
+
+  .character-side {
+    padding: 20px;
+  }
+
+  .character-side img {
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  .character-label {
+    font-size: 15px;
+  }
+}
