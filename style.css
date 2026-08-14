@@ -66,3 +66,37 @@ header .brand img {
   object-fit: contain;
   object-position: center;
 }
+/* Mirage artwork - responsive sizing */
+.hero-art {
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mirage-hero {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto !important;
+  max-height: 650px;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+/* Phone */
+@media (max-width: 520px) {
+  .hero-art {
+    padding: 15px !important;
+  }
+
+  .mirage-hero {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
+}
