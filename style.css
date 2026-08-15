@@ -169,6 +169,15 @@ header .brand img {
   font-size: 16px;
 }
 
+.mirage-intro .intro-lead {
+  font-family: Cinzel, serif;
+  font-size: 21px;
+  line-height: 1.5;
+  color: var(--cream);
+  margin-bottom: 18px;
+  letter-spacing: .02em;
+}
+
 /* Mirage page mobile */
 
 @media (max-width: 520px) {
