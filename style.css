@@ -436,3 +436,65 @@ header .brand img {
     font-size: 15px;
   }
 }
+
+/* Mirage Origin */
+
+.mirage-origin {
+  margin: 70px 0 20px;
+  padding: 45px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.mirage-origin > .eyebrow {
+  margin-bottom: 25px;
+}
+
+.mirage-origin > h2 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 35px;
+}
+
+.origin-content {
+  max-width: 850px;
+  padding-left: 30px;
+  border-left: 1px solid var(--gold);
+}
+
+.origin-content p {
+  color: var(--cream);
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 24px;
+}
+
+.origin-content p:last-child {
+  margin-bottom: 0;
+}
+/* Mirage Origin - Mobile */
+
+@media (max-width: 520px) {
+
+  .mirage-origin {
+    margin-top: 45px;
+    padding: 30px 20px;
+  }
+
+  .mirage-origin > h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+  }
+
+  .origin-content {
+    padding-left: 20px;
+  }
+
+  .origin-content p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+}
