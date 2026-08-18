@@ -601,6 +601,35 @@ header .brand img {
   margin-bottom: 0;
 }
 
+.family-member {
+  margin: 32px 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.family-member span {
+  display: block;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.family-member h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 14px;
+}
+
+.family-member p {
+  margin: 0;
+}
+
 /* Mirage Family - Mobile */
 
 @media (max-width: 520px) {
