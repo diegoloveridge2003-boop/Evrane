@@ -524,7 +524,7 @@ header .brand img {
 .personality-content {
   max-width: 850px;
   padding-left: 30px;
-  border-left: 1px solid var(--gold);
+  border-left: 2px solid var(--gold);
 }
 
 .personality-content p {
