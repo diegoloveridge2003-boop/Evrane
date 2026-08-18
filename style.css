@@ -562,3 +562,67 @@ header .brand img {
     line-height: 1.75;
   }
 }
+
+/* Mirage Family */
+
+.mirage-family {
+  margin: 10px 0 20px;
+  padding: 45px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.mirage-family > .eyebrow {
+  margin-bottom: 25px;
+}
+
+.mirage-family > h2 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 35px;
+}
+
+.family-content {
+  max-width: 850px;
+  padding-left: 30px;
+  border-left: 2px solid var(--gold);
+}
+
+.family-content p {
+  color: var(--cream);
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 24px;
+}
+
+.family-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mirage Family - Mobile */
+
+@media (max-width: 520px) {
+
+  .mirage-family {
+    margin-top: 10px;
+    padding: 30px 20px;
+  }
+
+  .mirage-family > h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+  }
+
+  .family-content {
+    padding-left: 20px;
+  }
+
+  .family-content p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+}
