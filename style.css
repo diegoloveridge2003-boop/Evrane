@@ -183,7 +183,7 @@ header .brand img {
 @media (max-width: 520px) {
 
 .mirage-page {
-  padding: 70px 6% 45px;
+  padding: 70px 6% 0;
 }
 
   .mirage-page > h1 {
@@ -342,6 +342,7 @@ header .brand img {
 
   .mirage-abilities {
     margin-top: 45px;
+    margin-bottom: 0;
     padding: 25px 20px;
   }
 
