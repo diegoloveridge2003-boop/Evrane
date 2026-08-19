@@ -817,3 +817,115 @@ a.character small {
     line-height: 1.75;
   }
 }
+
+/* Evrane Library */
+
+.library-grid {
+  margin-top: 35px;
+}
+
+.book-card {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+  min-height: 380px;
+}
+
+.book-cover-placeholder {
+  border-right: 1px solid var(--line);
+  background: linear-gradient(145deg, #151d22, #0b1013);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 380px;
+  font-family: Cinzel, serif;
+  color: var(--gold);
+  letter-spacing: 5px;
+}
+
+.book-cover-placeholder span {
+  font-size: 36px;
+}
+
+.book-cover-placeholder small {
+  margin-top: 15px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: var(--cream);
+}
+
+.book-info {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-series {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.book-info h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 34px;
+  font-weight: 500;
+  margin: 14px 0 20px;
+}
+
+.book-info p {
+  max-width: 650px;
+  font-size: 17px;
+  line-height: 1.8;
+  margin: 0 0 30px;
+}
+
+.book-meta {
+  display: flex;
+  gap: 12px;
+}
+
+.book-meta span {
+  border: 1px solid var(--line);
+  padding: 10px 14px;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Evrane Library - Mobile */
+
+@media (max-width: 700px) {
+
+  .book-card {
+    grid-template-columns: 1fr;
+  }
+
+  .book-cover-placeholder {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    min-height: 280px;
+  }
+
+  .book-info {
+    padding: 30px 24px;
+  }
+
+  .book-info h3 {
+    font-size: 28px;
+  }
+
+  .book-info p {
+    font-size: 15px;
+  }
+
+  .book-meta {
+    flex-wrap: wrap;
+  }
+}
