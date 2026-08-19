@@ -658,3 +658,8 @@ header .brand img {
   }
 
 }
+
+.character {
+  text-decoration: none;
+  color: inherit;
+}
