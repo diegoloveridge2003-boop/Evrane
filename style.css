@@ -673,3 +673,147 @@ a.character small {
   color: inherit;
   text-decoration: none;
 }
+
+/* Mirage — Allies & Enemies */
+
+.mirage-relations {
+  margin: 10px 0 20px;
+  padding: 45px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.mirage-relations > .eyebrow {
+  margin-bottom: 25px;
+}
+
+.mirage-relations > h2 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.relations-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.relations-column {
+  border: 1px solid var(--line);
+  padding: 30px;
+  min-width: 0;
+}
+
+.relations-heading {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.relations-heading span {
+  display: block;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.relations-heading h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.relation-empty {
+  padding: 30px 0;
+  opacity: 0.55;
+}
+
+.relation-empty span {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.relation-empty p {
+  margin: 10px 0 0;
+}
+
+.relation-card {
+  padding: 10px 0;
+}
+
+.relation-type {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.relation-card h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 30px;
+  font-weight: 500;
+  margin: 12px 0 4px;
+}
+
+.relation-name {
+  color: var(--cream);
+  opacity: 0.65;
+  margin: 0 0 22px;
+}
+
+.relation-card > p:not(.relation-name) {
+  color: var(--cream);
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.relation-status {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Allies & Enemies — Mobile */
+
+@media (max-width: 520px) {
+
+  .mirage-relations {
+    padding: 30px 20px;
+  }
+
+  .mirage-relations > h2 {
+    font-size: 32px;
+  }
+
+  .relations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .relations-column {
+    padding: 22px 20px;
+  }
+
+  .relations-heading h3 {
+    font-size: 21px;
+  }
+
+  .relation-card h3 {
+    font-size: 26px;
+  }
+
+  .relation-card > p:not(.relation-name) {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+}
