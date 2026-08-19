@@ -659,7 +659,17 @@ header .brand img {
 
 }
 
-.character {
-  text-decoration: none;
+a.character,
+a.character:visited,
+a.character:hover,
+a.character:active {
   color: inherit;
+  text-decoration: none;
+}
+
+a.character h3,
+a.character p,
+a.character small {
+  color: inherit;
+  text-decoration: none;
 }
