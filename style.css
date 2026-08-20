@@ -1240,3 +1240,84 @@ a.character small {
     font-size: 19px;
   }
 }
+
+/* Evrane Archives */
+
+.archive-grid {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.archive-file {
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+  padding: 30px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.archive-type {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+.archive-file h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 18px;
+}
+
+.archive-file p {
+  color: var(--cream);
+  font-size: 15px;
+  line-height: 1.7;
+  opacity: 0.8;
+  margin: 0 0 28px;
+}
+
+.archive-status {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.archive-status.documented {
+  color: var(--gold);
+}
+
+.archive-status.restricted {
+  color: #9c9c9c;
+}
+
+.archive-status.classified {
+  color: #777;
+}
+
+.classified-file {
+  background:
+    linear-gradient(rgba(5,5,5,0.35), rgba(5,5,5,0.35)),
+    linear-gradient(145deg, #0b0d0f, #070809);
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+  .archive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-file {
+    min-height: 0;
+  }
+}
