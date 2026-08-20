@@ -913,17 +913,18 @@ a.character small {
     min-height: 280px;
   }
 
-  .book-info {
-    padding: 30px 24px;
-  }
+.book-info {
+  padding: 28px 24px;
+}
 
-  .book-info h3 {
-    font-size: 28px;
-  }
+.book-info h3 {
+  margin-bottom: 18px;
+}
 
-  .book-info p {
-    font-size: 15px;
-  }
+.book-info p {
+  margin-bottom: 22px;
+  line-height: 1.65;
+}
 
   .book-meta {
     flex-wrap: wrap;
