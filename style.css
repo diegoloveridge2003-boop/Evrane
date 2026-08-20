@@ -946,3 +946,29 @@ a.character small {
   object-fit: cover;
   display: block;
 }
+
+.redacted {
+  display: inline-block;
+  background: #050505;
+  color: #050505;
+  padding: 0 8px;
+  border: 1px solid #1a1a1a;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+.timeline-status {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.timeline-status.documented {
+  color: var(--gold);
+}
+
+.timeline-status.classified {
+  color: #8f8f8f;
+}
