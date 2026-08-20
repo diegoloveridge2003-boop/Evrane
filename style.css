@@ -972,3 +972,125 @@ a.character small {
 .timeline-status.classified {
   color: #8f8f8f;
 }
+
+/* Evrane World / Locations */
+
+.location-card {
+  margin-top: 35px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+  padding: 40px;
+}
+
+.location-heading {
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--line);
+}
+
+.location-heading > span {
+  display: block;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.location-heading h3 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0 0 5px;
+}
+
+.location-heading p {
+  color: var(--cream);
+  opacity: 0.65;
+  font-size: 16px;
+  margin: 0;
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 45px;
+}
+
+.location-description {
+  padding-left: 25px;
+  border-left: 2px solid var(--gold);
+}
+
+.location-description p {
+  color: var(--cream);
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 0 22px;
+}
+
+.location-description p:last-child {
+  margin-bottom: 0;
+}
+
+.location-data {
+  border: 1px solid var(--line);
+}
+
+.location-data > div {
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.location-data > div:last-child {
+  border-bottom: 0;
+}
+
+.location-data span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 7px;
+}
+
+.location-data strong {
+  display: block;
+  color: var(--cream);
+  font-family: Cinzel, serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Evrane World / Locations — Mobile */
+
+@media (max-width: 700px) {
+
+  .location-card {
+    padding: 30px 20px;
+  }
+
+  .location-heading h3 {
+    font-size: 30px;
+  }
+
+  .location-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .location-description {
+    padding-left: 20px;
+  }
+
+  .location-description p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .location-data > div {
+    padding: 16px;
+  }
+}
