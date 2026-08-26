@@ -1512,3 +1512,25 @@ a.character small {
     padding: 25px 22px;
   }
 }
+
+/* Interactive Archive Records */
+
+.archive-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+.archive-link:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+  background: linear-gradient(145deg, #111619, #090b0d);
+}
+
+.archive-link:active {
+  transform: translateY(-1px);
+}
