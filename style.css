@@ -1561,3 +1561,207 @@ a.character small {
 
   color: #c9a86a;
 }
+
+/* Paragon Dossier Page */
+
+.dossier-page {
+  padding-bottom: 80px;
+}
+
+.dossier-hero {
+  padding: 90px 6vw 70px;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.dossier-code {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  color: var(--gold);
+  font-family: Cinzel, serif;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.dossier-hero h1 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: clamp(42px, 7vw, 82px);
+  font-weight: 500;
+  margin: 0 0 22px;
+}
+
+.dossier-intro {
+  max-width: 760px;
+  color: var(--cream);
+  font-size: 18px;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+.dossier-record {
+  margin: 50px 6vw 0;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, #0d1114, #090b0d);
+}
+
+.dossier-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid var(--line);
+}
+
+.dossier-meta > div {
+  padding: 22px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.dossier-meta > div:nth-child(3n) {
+  border-right: 0;
+}
+
+.dossier-meta span,
+.dossier-note span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.dossier-meta strong {
+  color: var(--cream);
+  font-family: Cinzel, serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dossier-section {
+  padding: 45px;
+  border-bottom: 1px solid var(--line);
+}
+
+.dossier-section h2 {
+  font-family: Cinzel, serif;
+  color: var(--cream);
+  font-size: 34px;
+  font-weight: 500;
+  margin: 10px 0 30px;
+}
+
+.dossier-copy {
+  max-width: 850px;
+  padding-left: 28px;
+  border-left: 2px solid var(--gold);
+}
+
+.dossier-copy p {
+  color: var(--cream);
+  font-size: 17px;
+  line-height: 1.85;
+  margin: 0 0 24px;
+}
+
+.dossier-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.dossier-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.dossier-link {
+  border: 1px solid var(--line);
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.dossier-link span {
+  display: block;
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+.dossier-link strong {
+  display: block;
+  color: var(--cream);
+  font-family: Cinzel, serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.dossier-link small {
+  color: #8f8f8f;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.locked-record {
+  opacity: 0.6;
+}
+
+.dossier-note {
+  padding: 30px 45px;
+  background: #080a0c;
+}
+
+.dossier-note p {
+  color: var(--cream);
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .dossier-hero {
+    padding: 60px 20px 45px;
+  }
+
+  .dossier-record {
+    margin: 30px 20px 0;
+  }
+
+  .dossier-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .dossier-meta > div {
+    border-right: 0;
+  }
+
+  .dossier-section {
+    padding: 30px 22px;
+  }
+
+  .dossier-section h2 {
+    font-size: 28px;
+  }
+
+  .dossier-copy {
+    padding-left: 20px;
+  }
+
+  .dossier-copy p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .dossier-links {
+    grid-template-columns: 1fr;
+  }
+
+  .dossier-note {
+    padding: 25px 22px;
+  }
+}
