@@ -1534,3 +1534,17 @@ a.character small {
 .archive-link:active {
   transform: translateY(-1px);
 }
+
+/* Remove default link styling from archive cards */
+
+.archive-link,
+.archive-link:visited,
+.archive-link:hover,
+.archive-link:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.archive-link * {
+  text-decoration: none;
+}
