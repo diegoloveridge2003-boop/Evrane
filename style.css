@@ -1548,3 +1548,16 @@ a.character small {
 .archive-link * {
   text-decoration: none;
 }
+
+.file-access {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: #c9a86a;
+}
